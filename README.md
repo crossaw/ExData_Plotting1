@@ -1,4 +1,18 @@
-## Introduction
+# Exploratory Data Analysis Project 1
+This is a submission of the first week project for the Exploratory Data
+Analysis class offered by the Johns Hopkins University on coursera.org.
+
+## Contents
+The submission includes eight files, four R scripts and four png plots.
+Each R script generates one of the plots when it is executed in a
+working directory that contains the data file, household_power_consumption.txt,
+which can be extracted from the zip file referenced below.  Each plot mimics
+one of the plots in the figure folder, which can be extracted from the same zip
+file but is not needed for the scripts to run.
+
+####The following instructions were provided for this class assignment.
+= = = = = = = = = BEGIN INSTRUCTIONS = = = = = = = = =
+### Introduction
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
@@ -7,14 +21,12 @@ datasets. In particular, we will be using the "Individual household
 electric power consumption Data Set" which I have made available on
 the course web site:
 
-
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
 
 * <b>Description</b>: Measurements of electric power consumption in
 one household with a one-minute sampling rate over a period of almost
 4 years. Different electrical quantities and some sub-metering values
 are available.
-
 
 The following descriptions of the 9 variables in the dataset are taken
 from
@@ -33,11 +45,7 @@ web site</a>:
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
 
-## Loading the data
-
-
-
-
+### Loading the data
 
 When loading the dataset into R, please consider the following:
 
@@ -57,8 +65,7 @@ functions.
 
 * Note that in this dataset missing values are coded as `?`.
 
-
-## Making Plots
+### Making Plots
 
 Our overall goal here is simply to examine how household energy usage
 varies over a 2-day period in February, 2007. Your task is to
@@ -67,7 +74,6 @@ using the base plotting system.
 
 First you will need to fork and clone the following GitHub repository:
 [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
-
 
 For each plot you should
 
@@ -87,28 +93,4 @@ include the code that creates the PNG file.
 When you are finished with the assignment, push your git repository to
 GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
-
-
-The four plots that you will need to construct are shown below. 
-
-
-### Plot 1
-
-
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
-
-
-### Plot 2
-
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
-
-
-### Plot 3
-
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
-
-
-### Plot 4
-
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
-
+= = = = = = = = = END INSTRUCTIONS = = = = = = = = =
