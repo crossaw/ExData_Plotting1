@@ -22,8 +22,7 @@ brks = 0 : ceiling( 2 * max(hpc$Global_active_power) ) / 2
 hist(hpc$Global_active_power, breaks = brks, freq=T, col="red",
       main="Global Active Power", xlab="Global Active Power (kilowatts)")
 
-dev.off()
-
 ### CLEANUP
+dev.off()
 # Leave just hpc.
 rm (fn, outFile, cc, brks)

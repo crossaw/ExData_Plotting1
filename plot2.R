@@ -41,7 +41,7 @@ if (xloc[length(xloc)] != nrow(hpc)) {
 xlab <- weekdays(xlab, T)
 axis(1, xloc, xlab)
 
-dev.off()
 ### CLEANUP
+dev.off()
 # Leave just hpc.
 rm (fn, outFile, cc, xlab, xloc, i)
