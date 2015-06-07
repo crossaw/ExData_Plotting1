@@ -1,7 +1,8 @@
 # plot2.R
 # This script creates a line plot of the Global Active Power for 1 Jul and 2
-# Jul, 2007.  The plot is saved to the file identified as outfile.  The input
-# data is left in the workspace as a dataframe, hpc.
+# Jul, 2007 from the data in the file identified by fn.  The plot is saved to
+# the file identified as outfile.  The input data is left in the workspace as a
+# dataframe, hpc.
 
 library(dplyr)
 
@@ -14,7 +15,6 @@ cc <- c( rep("character",2), rep("numeric", 7) )
 hpc <- filter( read.table(fn, header=T, na.strings="?", colClasses=cc, sep=";"),
          Date=="1/2/2007" | Date=="2/2/2007" )
 hpc$Date <- as.Date(hpc$Date, "%d/%m/%Y")
-#hpc$Time <- strptime(hpc$Time, "%H:%M:%S")
 
 ### CREATE THE PLOT
 png(outFile)
