@@ -20,8 +20,8 @@ hpc$Date <- as.Date(hpc$Date, "%d/%m/%Y")
 png(outFile)
 
 # without tick marks on the x axis
-plot(hpc$Global_active_power, type="l", ylab="Global Active Power (kilowatts)",
-         xaxt="n")
+plot(hpc$Global_active_power, type="l", xlab="",
+         ylab="Global Active Power (kilowatts)", xaxt="n")
 
 # prepare x axis tick marks
 xlab <- hpc[1,1]           # Initialize x labels.

@@ -21,7 +21,7 @@ hpc$Date <- as.Date(hpc$Date, "%d/%m/%Y")
 png(outFile)
 
 # without tick marks on the x axis
-plot(hpc[,7], type="l", ylab="Energy sub-metering", xaxt="n")
+plot(hpc[,7], type="l", xlab="", ylab="Energy sub-metering", xaxt="n")
 lines(x=1:nrow(hpc), y=hpc[,8], col=lc[2])
 lines(x=1:nrow(hpc), y=hpc[,9], col=lc[3])
 
